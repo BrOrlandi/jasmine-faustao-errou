@@ -1,16 +1,14 @@
-# Jest Faustao Errou Results Processor
+# Jasmine Faustao Errou Custom Reporter
 
-Play "Errou" sound if the Jest tests fail.
+Play "Errou" sound if the Jasmine tests fail.
 
 ## Install
 
-    npm install --save-dev jest-faustao-errou
+    npm install --save-dev jasmine-faustao-errou
 
 ## Usage
 
-In your `package.json` file:
+In your main test file:
 ```javascript
-"jest":{
-    "testResultsProcessor":"<rootDir>/node_modules/jest-faustao-errou/index.js"
-}
+jasmine.getEnv().addReporter(require('jasmine-faustao-errou'));
 ```
