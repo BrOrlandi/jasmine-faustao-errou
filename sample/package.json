@@ -1,0 +1,15 @@
+{
+  "name": "sample-jasmine-faustao-errou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "just.test.js",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-faustao-errou":"^1.0.0"
+  },
+  "scripts": {
+    "test": "jasmine ./just.test.js"
+  },
+  "author": "Bruno Orlandi <brorlandi@gmail.com>",
+  "license": "ISC"
+}

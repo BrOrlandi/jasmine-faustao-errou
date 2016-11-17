@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-faustao-errou",
+  "version": "1.0.0",
+  "description": "Jasmine Custom Reporter. If your tests fail, Errrrrouuuu!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BrOrlandi/jasmine-faustao-errou.git"
+  },
+  "author": "Bruno Orlandi <brorlandi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrOrlandi/jasmine-faustao-errou/issues"
+  },
+  "homepage": "https://github.com/BrOrlandi/jasmine-faustao-errou#readme",
+  "dependencies": {
+    "faustao-errou": "^1.0.1"
+  }
+}
